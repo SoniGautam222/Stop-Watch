@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h2{
+    text-align: center;
+    font-size: 2rem;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100vw;
+    align-items: center;
+}
+/* desiging the watch */
+#watch{
+    margin-top: 20px;
+    height:70vh; 
+    width: 35vw;
+    background-color: #d5749a99;
+    border-radius: 50%;
+    border:2px solid black;
+}
+/* helps to style the 00 : 00 : 00 on the watch */
+#time{
+    font-size: 3rem;
+    text-align: center;
+    margin-top:40%;
+}
+/* making the style on the button */
+button{
+    background-color: #d5749a99;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-top: 20px;
+}
+/* when we are going to hover over the buttons */
+button:hover{
+    background-color: blueviolet;
+}
